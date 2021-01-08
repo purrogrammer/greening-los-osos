@@ -210,7 +210,7 @@ h1, h3 {
 
 #hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
     url("https://i.ibb.co/yY1yknC/lov-road.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@ h1, h3 {
 
 #hero h2 {
   color: var(--clr-primary-400);
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-shadow: 0 0 4px #509325;
 }
 
@@ -234,8 +234,9 @@ h1, h3 {
   /* font-family: "Playfair Display", serif; */
   font-family: var(--ff-accent);
     font-size: 3rem;
-    font-weight: 700;
-    padding-bottom: 1.5rem;
+    letter-spacing: .12rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
     background: #2C2E2B;
     background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
     background: -moz-linear-gradient(top left, #2C2E2B, #14DA11);
@@ -247,7 +248,7 @@ h1, h3 {
 #hero .container button {
         background-color: #0d3d16;
        border-radius: 100px;
-        margin-top: 2.5remS;
+        margin-top: 2.5rem;
      /* padding: 19px 30px !important; */
      border: 2px solid transparent;
      outline: 0px;
@@ -312,7 +313,7 @@ h1, h3 {
 
 .page-header {
     /* margin-top: 4rem; */
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 0;
@@ -375,12 +376,7 @@ h1, h3 {
      background: linear-gradient(to bottom right,  #14DA11, #2C2E2B);
   }
   
-  /* .container {
-    width: 95%;
-    max-width: 1000px;
-    margin: 0 auto;
-  } */
-  
+
 /* ============START about section========== */
 /* #about .icons  .container {
      background-color: hotpink;
@@ -389,18 +385,30 @@ h1, h3 {
 
 } */ 
 .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
     padding: 30px;
     margin-bottom: 5rem;
     background-color: #fff;
 }
 
-.icons .container .col-4-md {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-radius: .5rem;
-    justify-content: space-around;
-    min-width: 33%;
+.icons h3 {
+  color: #0d3d16;
 }
+
+.icons .container .col-4-md {
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5;
+    border-radius: .5rem;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    min-width: 33%;
+  
+}
+
+ 
 
 .icons .container .col-4-md:hover  {
     box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.5);
@@ -408,7 +416,6 @@ h1, h3 {
 }
 
 /* ============start ABOUT section ===========  */
-
 
 .about {
     margin-top: 3rem;
@@ -419,7 +426,6 @@ h1, h3 {
     z-index: -5;
     align-items: center;
     text-align: center;
-
   }
   
   .about  ul {
@@ -460,6 +466,52 @@ h1, h3 {
     
   }
 
+  /* =============Gallery==================== */
+
+  .gallery {
+    /* background-color: rgb(240,248,234); */
+    background-color: #c1f0a3;
+    /* outline: 2px solid black; */
+    margin-top: -4rem;  
+    padding-bottom: 2rem;
+  }
+
+  .gallery h1 {
+   margin-top: 2rem;
+    font-family: var(--ff-accent);
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    background: #2C2E2B;
+    background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
+    background: -moz-linear-gradient(top left, #2C2E2B, #14DA11);
+    background: linear-gradient(to bottom right, #2C2E2B, rgb(200, 226, 199));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+  .gallery .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+  .gallery img {
+    display: inline-flex;
+    border-radius: 5%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+   justify-content: center;
+    text-align: center;
+    /* max-width: 30vw; */
+     }
+
+  .gallery button {
+    text-align: center;
+    align-items: center;
+  }
+
   /* =============start CONTACT section================= */
 
   /* #contact .col-md-5 {
@@ -479,22 +531,27 @@ margin-right: .5rerm;
 
 #contact .col-md-5 img {
     border-radius: 50%;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
     margin-left: 3rem;
+    margin-right: 3rem;
     max-width: 50vw;
     max-height: 50vh;
    align-self: center;
+   text-align: center;
   }
 
   #contact .contact-image {
     text-align: center;
     margin-inline: 2rem;
+    max-width: 40%;
   }
 
   #contact h1 {
     font-family: var(--ff-accent);
     font-size: 3rem;
     font-weight: 700;
+    margin-top: 1.6rem;
     padding-bottom: 1.5rem;
     background: #2C2E2B;
     background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
@@ -514,6 +571,11 @@ margin-right: .5rerm;
     min-width: 80%
     /* padding-right: 1.4rem; */
     /* color: rgba(255, 255, 255, 0.7); */
+  }
+
+  .contact-icon p {
+    text-align: left;
+    display: inline-block;
   }
 
   .contact-icon ul {
@@ -555,18 +617,18 @@ margin-right: .5rerm;
 
   /*==============footer CSS START==============*/
 
-  /* footer {
+  footer {
     color: #fff;
     font-size: 1rem;
     margin: 0;
     padding: 1rem;
   }
   
-  a {
+  footer a {
     color: #fff;
     text-decoration: none;
   }
-    */
+   
 
  .footer__social {
       box-sizing: border-box;

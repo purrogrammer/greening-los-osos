@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+#hero-trees {
+    min-height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+      url("https://i.ibb.co/yY1yknC/lov-road.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding-top: -2rem;
+    /* padding: 25px; */
+    /* padding: 15px; */
+  }
+
+ #hero-trees h1 {
+  font-family: var(--ff-accent);
+  font-size: 2rem;
+  letter-spacing: .12rem;
+  text-decoration: underline;
+  font-weight: 800;
+  padding-bottom: .5rem;
+  background: #2C2E2B;
+  background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
+  background: -moz-linear-gradient(top left, #2C2E2B, #14DA11);
+  background: linear-gradient(to bottom right, #2C2E2B, #14DA11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+ }
+  #hero-trees h2 {
+    color: var(--clr-primary-400);
+    font-size: 1.6rem;
+    text-shadow: 0 0 4px #509325;
+  }
+  
+  #tree-info img {
+    border-radius: 50%;
+  }
+  #tree-info h1 {
+    /* font-family: "Playfair Display", serif; */
+    font-family: var(--ff-accent);
+      font-size: 2rem;
+      letter-spacing: .12rem;
+      font-weight: 800;
+      padding-bottom: .5rem;
+      background: #2C2E2B;
+      background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
+      background: -moz-linear-gradient(top left, #2C2E2B, #14DA11);
+      background: linear-gradient(to bottom right, #2C2E2B, #14DA11);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  #tree-info h2 {
+      font-size: 1.1rem;
+  }
+
+  #contact .contact-icon p {
+    text-align: left;
+  }
+
+  #tree-planting-tips h1 {
+    font-family: var(--ff-accent);
+    font-size: 2rem;
+    letter-spacing: .12rem;
+    text-decoration: underline;
+    font-weight: 800;
+    padding-bottom: .5rem;
+    background: #2C2E2B;
+    background: -webkit-linear-gradient(top left, #2C2E2B, #14DA11);
+    background: -moz-linear-gradient(top left, #2C2E2B, #14DA11);
+    background: linear-gradient(to bottom right, #2C2E2B, #14DA11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  #tree-planting-tips img {
+    border-radius: 50%;
+  }

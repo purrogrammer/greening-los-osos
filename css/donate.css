@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+#hero-donate {
+    min-height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+      url("https://i.ibb.co/nzT7Rdq/seedlings.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding-top: -2rem;
+    /* padding: 25px; */
+    /* padding: 15px; */
+  }
+  
+  #hero-donate h2 {
+    color: var(--clr-primary-400);
+    font-size: 1.6rem;
+    text-shadow: 0 0 4px #509325;
+  }
+  
+  
+  #hero-donate h1 {
+    /* font-family: "Playfair Display", serif; */
+    font-family: var(--ff-accent);
+      font-size: 2rem;
+      letter-spacing: .12rem;
+      font-weight: 800;
+      padding-bottom: .5rem;
+      color: #fff;
+  }
+
+  .donate h1 {
+      color: #dafc1b;
+
+  }
+
+  #tree-info h2 {
+      font-size: 1.1rem;
+  }
+
+  .donate p {
+      font-weight: 600;
+  }
+
+  .feature {
+    color: #fff;
+  }
+  
+  .feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  .feature ul li {
+    padding-left: 2rem;
+    /* background-image: url(../img/check.svg);
+    background-repeat: no-repeat; */
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
