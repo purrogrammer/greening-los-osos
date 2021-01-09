@@ -80,7 +80,7 @@ header::after {
   top: 100%;
   right: 0%;
   /* background: #464655; */
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.8);
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 700ms;
 /*   display: none; */
@@ -134,7 +134,7 @@ header::after {
 .site-nav a:hover,
 .site-nav a:focus {
   /* background: #E4B363; */
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, .8);
   color: #0d3d16;
 }
 .menu-toggle {
