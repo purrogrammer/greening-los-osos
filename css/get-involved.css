@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-#hero {
+#hero-involved {
     min-height: 75vh;
     background-image:url(/img/vita-tree-education.jpg);
     background-size: cover;
@@ -33,27 +33,7 @@
     margin-inline: 2rem;
   }
 
-  #hero-donate {
-    min-height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
-      url("https://i.ibb.co/nzT7Rdq/seedlings.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin-top: -2rem;
-    padding-top: -2rem;
-    /* padding: 25px; */
-    /* padding: 15px; */
-  }
-  
-  #hero-donate h2 {
-    color: var(--clr-primary-400);
-    font-size: 1.6rem;
-    text-shadow: 0 0 4px #509325;
-  }
-  
+
   
   #hero-donate h1 {
     /* font-family: "Playfair Display", serif; */
