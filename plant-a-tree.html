@@ -61,6 +61,8 @@
 
         <section id="hero-trees">
                 <div class="container">
+                    <div class="tree-links">
+                   
                  
                   <h1>Plant a Tree!</h1>
                    <!--<button type="button" class="btn btn-outline-warning mb-3">
@@ -69,11 +71,53 @@
            
                 </div>
               </section>
+
+              <div class="container"> 
+             
               
               <div id="tree-info" class="container">
                         <div class="align-items-center">
+                            <div class="svg-2 hide" id="svg-2"></div>
+                          </div>
 
-                            <div class="tree-links">
+
+    <!-- =================animation CDNs ============= -->
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_vfgwrgqf.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    
+
+<!--  -->
+
+<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_OT15QW.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
+       -->
+
+<!-- =============start inline JS for tree animation =============== -->
+      <script>  
+          const play = document.querySelector('button');
+          
+          const svgContainer = document.getElementById('svg-2');
+          const animItem = bodymovin.loadAnimation({
+              wrapper: svgContainer,
+              animType: 'svg',
+              loop: false,
+              autoplay: false,
+              path: 'https://assets1.lottiefiles.com/private_files/lf30_vfgwrgqf.json'
+          });
+          
+          play.addEventListener('click', () => {
+              svgContainer.classList.remove('hide');
+              animItem.goToAndPlay(0,true);
+          })
+          
+          animItem.addEventListener('complete', () => {
+              svgContainer.classList.add('hide');
+              
+          })
+          
+          </script>
 
                                 <a href="#which-trees">  <button type="button" class="btn btn-outline-success mb-3">
                                     Trees to plant in Los Osos
@@ -91,6 +135,7 @@
                 
                           <div id="which-trees" class="col-md-6">
                             <h1 class="my-3">Which Trees To Plant In Los Osos?</h1>
+
                             <h2>These trees are recommended for the planting in Los Osos because they are either natives or friendly to the Central Coast, require little water, grow in diverse soil conditions and climates of Los Osos, and enhance the beauty of the community.</h2>
                             <p class="my-4">
                                     
@@ -302,8 +347,9 @@
     </div>
   </footer>
 
+
+  <script> 
   
-<script>  
     $('.menu-toggle').click(function() {
           $('.site-nav').toggleClass('site-nav--open', 500);
         $(this).toggleClass('open');

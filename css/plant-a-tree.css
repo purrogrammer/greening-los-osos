@@ -85,3 +85,15 @@
   #tree-planting-tips img {
     border-radius: 50%;
   }
+
+  .svg-2 {
+    width: 200px;
+    position: absolute;
+    top: -40px;
+    left: -30px;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}

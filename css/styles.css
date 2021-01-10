@@ -356,6 +356,19 @@ h1, h3 {
     margin: 0 auto;
   }
 
+  .svg-2 {
+    width: 200px;
+    position: absolute;
+    /* top: -40px;
+    left: -30px; */
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+
 /*   
 .page-header {
     margin-top: 1rem;
