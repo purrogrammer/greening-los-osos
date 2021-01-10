@@ -40,10 +40,10 @@
     text-shadow: 0 0 4px #509325;
   }
   
-  #tree-info img {
+  #which-trees img {
     border-radius: 50%;
   }
-  #tree-info h1 {
+  #which-trees h1 {
     /* font-family: "Playfair Display", serif; */
     font-family: var(--ff-accent);
       font-size: 2rem;
@@ -61,6 +61,11 @@
   #tree-info h2 {
       font-size: 1.1rem;
   }
+
+  #which-trees h2 {
+    font-size: 1.1rem;
+}
+
 
   #contact .contact-icon p {
     text-align: left;
