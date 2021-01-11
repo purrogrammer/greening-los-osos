@@ -673,91 +673,10 @@ margin-right: .5rerm;
     
   /* ========media queries ========== */
 
-  @media (min-width: 900px) {
-    .logo {
-      float: left; 
-      overflow: hidden;
-      /* display: flex;
-      flex: 1 1 30rem;    
-      overflow: hidden;  */
-       
-      /* }
-      
-      .logo {
-          display: flex;
-           flex: 1 1 30rem;    
-           overflow: hidden; 
-            align-self: flex-start;
-            padding: .5rem;
-            size: adjust;
-          } 
-
-          .logo {
-            float: left; */
-            /* position: sticky; */
-            font-size: 1.5rem;
-            font-family: "Playfair Display", serif;
-            color: #509325;
-            /* margin: .5rem; */
-            align-items: center;
-            text-transform: uppercase;
-            font-weight: 700;
-              margin-top: 1rem;
-          }
-  .site-nav {
-    height: auto;
-    position: relative;
-    background: transparent;
-    float: right;
-    clip-path: initial;
-  }
-
-  .site-nav--icon {
-    display: inline-block;
-    font-size: 1.5em;
-    margin-right: 1em;
-    width: 1.1em;
-    text-align: right;
-    color: rgba(255,255,255,.4);
-  }
-  
-  .site-nav li {
-    display: inline-block;
-    border: none;
-    text-align: right;
-  }
-  
-  .site-nav a {
-    display: block;
-    padding: 2em 4em 2em 1.5em;
-    margin-left: .1em;
-  }
-  
-  .site-nav a:hover,
-  .site-nav a:focus {
-    background: transparent;
-    color: #14DA11;
-  }
-  
-  /* .site-nav--icon {
-    display: none;
-  } */
-  .hero {
-    padding-top: 0; 
-    margin-top: 0;
-  }
-    header {
-      margin-top: -1rem;
-    }
-  
-    .menu-toggle {
-      display: none;
-    }
-     
-} 
 
 /* =======REVERTED ORIGINALMEDIA QUERY==== */
- @media (min-width: 900px) {
+
+  @media (min-width: 900px) {
   
   .menu-toggle {
     display: none;
@@ -793,3 +712,85 @@ margin-right: .5rerm;
 
  
 
+
+
+
+@media (min-width: 900px) {
+  .logo {
+    float: left; 
+    overflow: hidden;
+    /* display: flex;
+    flex: 1 1 30rem;    
+    overflow: hidden;  */
+     
+    /* }
+    
+    .logo {
+        display: flex;
+         flex: 1 1 30rem;    
+         overflow: hidden; 
+          align-self: flex-start;
+          padding: .5rem;
+          size: adjust;
+        } 
+
+        .logo {
+          float: left; */
+          /* position: sticky; */
+          font-size: 1.5rem;
+          font-family: "Playfair Display", serif;
+          color: #509325;
+          /* margin: .5rem; */
+          align-items: center;
+          text-transform: uppercase;
+          font-weight: 700;
+            margin-top: 1rem;
+        }
+.site-nav {
+  height: auto;
+  position: relative;
+  background: transparent;
+  float: right;
+  clip-path: initial;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+}
+
+.site-nav li {
+  display: inline-block;
+  border: none;
+  text-align: right;
+}
+
+.site-nav a {
+  display: block;
+  padding: 2em 4em 2em 1.5em;
+  margin-left: .1em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: transparent;
+  color: #14DA11;
+}
+
+.hero {
+  padding-top: 0; 
+  margin-top: 0;
+}
+  header {
+    margin-top: -1rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+   
+} 
