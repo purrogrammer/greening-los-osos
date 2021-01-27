@@ -83,7 +83,7 @@ header::after {
   background: rgba(255, 255, 255, 0.8);
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 700ms;
-/*   display: none; */
+
 }
 
 .site-nav--open {
@@ -210,8 +210,10 @@ h1, h3 {
 
 #hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.25), transparent),
     url("https://i.ibb.co/yY1yknC/lov-road.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -224,11 +226,46 @@ h1, h3 {
 }
 
 #hero h2 {
-  color: var(--clr-primary-400);
-  font-size: 1.6rem;
-  text-shadow: 0 0 4px #509325;
+  /* color: var(--clr-primary-400); */
+  color: #0d3d16;
+  font-size: 1.7rem;
+  /* font-style: italic; */
+  font-weight: 520;
+
+  /* text-shadow: 0 0 4px #509325; */
 }
 
+.fade-in {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
 
 #hero h1 {
   /* font-family: "Playfair Display", serif; */

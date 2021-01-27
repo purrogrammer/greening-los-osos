@@ -32,7 +32,8 @@
       font-size: 2rem;
       letter-spacing: .12rem;
       font-weight: 800;
-      padding-bottom: .5rem;
+      padding-bottom: 1em;
+      margin-bottom: 2em;
       color: #fff;
   }
 
@@ -46,7 +47,9 @@
   }
 
   .donate p {
+      margin-top: 1em;
       font-weight: 600;
+      width: 75vw;
   }
 
   .feature {
@@ -64,4 +67,12 @@
     background-repeat: no-repeat; */
     line-height: 1.5rem;
     margin-bottom: 1rem;
+  }
+
+  #contact {
+    background-color: #fff;
+  }
+
+  .btn .btn-outline-primary .mb-3 {
+    background-color: #fff;
   }

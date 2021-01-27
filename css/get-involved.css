@@ -19,7 +19,29 @@
     /* padding: 15px; */
   }
 
-  #
+  #contact {
+    background-color: #fff;
+  }
+
+  #contact .row {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #07661e;
+    font-weight: 500;
+  }
+
+  #contact .col-md-5 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contact .col-md-5 a {
+     font-weight: 550;
+     max-width: 80vw;
+     font-size: 14px;
+  }
   #contact .col-md-5 img {
     border-radius: 50%;
     margin-bottom: 3rem;
@@ -32,9 +54,14 @@
   #contact .contact-image {
     text-align: center;
     margin-inline: 2rem;
+    color: #07661e;
+  font-weight: 500;
   }
 
-
+.quote p {
+  color: #07661e;
+  font-weight: 500;
+}
   
   #involved h1 {
     /* font-family: "Playfair Display", serif; */
@@ -48,9 +75,19 @@
 
   .donate h1 {
       color: #dafc1b;
+        }
 
+  #green-wave {
+    width: 75vw;
   }
 
+  #green-wave h1 {
+    color: #dafc1b;
+  }
+
+  #green-wave p {
+    color: #fff;
+  }
   #tree-info h2 {
       font-size: 1.1rem;
   }
@@ -74,4 +111,12 @@
     background-repeat: no-repeat; */
     line-height: 1.5rem;
     margin-bottom: 1rem;
+  }
+
+  .text-circle {
+     display: block;
+     background-color: #fff;
+     color: #07661e;
+     border-radius: 50%;
+     
   }
